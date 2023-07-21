@@ -1,4 +1,53 @@
+body{
+    font-family: auto;
+    color: #000;
+}
 .contenair-adaptation{
-    width: 80%;
-    margin: auto;
+    /* width: 85%;
+    margin: auto; */
+    padding: 0;
+}
+
+/**** compenent *****/
+
+.color-green{
+    color: #5D6064 !important;
+}
+
+.second-font-familly{
+    font-family: "Open sans"    ;
+    font-weight: 300;
+}
+
+.title-default{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/****** header ***/
+
+.button-signUp{
+    background-color:#9bc34c ;
+    color: #ffffff;
+}
+
+.button-signUp:hover{
+    background-color:#9bc34c ;
+    color: #ffffff;
+}
+
+.button-search:active{
+    border:none;
+}
+
+.button-login{
+    border: 1px solid #5D6064;
+    color: #5D6064  ;
+}
+
+/******** Banner *****/
+
+.container-banner{
+    height: 80vh;
+    background: url("../assets/images/illustration/Rectangle-41.png");
 }

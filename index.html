@@ -8,12 +8,20 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="shortcut icon" href="./assets/images/icons/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Noto+Sans+Georgian:wght@400;900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <title>Adaptation & Prototype & Design</title>
 </head>
 
 <body>
 
-  <div class="contenair-adaptation">
+  <div class="contenair-adaptation container">
     <!-- /***** header ******/ -->
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
@@ -25,29 +33,262 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 second-font-familly">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Online courses</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
+              <a class="nav-link" href="#">Grammar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vocabulary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">IELTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Blog</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <button class="btn btn-outline-success " type="submit">Search</button>
-            <button class="btn btn-outline-success ms-2 " type="submit">Search</button>
+            <button class="btn button-search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button>
+            <button class="btn btn-outline-dark ms-2 button-login second-font-familly" type="submit">LOG IN</button>
+            <button class="btn  ms-2 button-signUp second-font-familly" type="submit">SIGN UP</button>
           </form>
         </div>
       </div>
     </nav>
+
+
+
   </div>
 
+  <!-- /***** Banner ****/ -->
+
+  <div class="container container-banner d-flex align-items-end overflow-hidden">
+    <div class="row h-75">
+      <div class="col-xl-2 h-100">
+        <img class="w-100 h-100" src="./assets/images/illustration/карт.png" alt="picture batiment">
+      </div>
+      <div class="col-xl-3 h-100 gap-3 d-flex flex-column">
+        <div class="row h-50">
+          <img class="h-100" src="./assets/images/illustration/Rectangle-196.png" alt="Picture">
+        </div>
+        <div class="row h-50">
+          <img class="h-100" src="./assets/images/illustration/карт-1.png" alt="Picture">
+        </div>
+      </div>
+      <div class="col-xl-4 h-100 gap-3 d-flex flex-column">
+        <div class="row h-50">
+          <img class="h-100" src="./assets/images/illustration/Rectangle-197.png" alt="Picture">
+        </div>
+        <div class="row h-50">
+          <img class="h-100" src="./assets/images/illustration/карт-2.png" alt="Picture">
+        </div>
+      </div>
+      <div class="col-xl-3 h-100 gap-3 d-flex flex-column">
+        <div class="row h-50 d-block position-relative">
+          <h5 class="m-0 color-green">To Measure the Immeasurable: How Machine Learning Helps Determine Language Level
+            </h6>
+            <p class="m-0 second-font-familly mt-1" style="font-size: 15px;">by Viktor Skliznev, Skyeng data analyst</p>
+            <div class="bloc-business d-flex gap-3 position-absolute bottom-0">
+              <img class="" style="height: 30px;" src="./assets/images/icons/logo.png" alt="Logo">
+              <div class="items-busniss d-flex flex-column second-font-familly " style="font-size: 11px;">
+                <span style="color: #9BC34C;">Business English</span>
+                <span>Jun 24 • 4 min read</span>
+              </div>
+            </div>
+        </div>
+        <div class="row h-50">
+          <img class="h-100" src="./assets/images/illustration/карт-1.png" alt="Picture">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- /****** contenair Opinion *******/ -->
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-xl-6">
+        <div class="card border-0 position-relative rounded-0" style="">
+          <img src="./assets/images/illustration/centre-reunion.png" class="card-img-top" alt="...">
+          <div class="card-body ps-0 pe-0">
+            <h5 class="card-title color-green title-default mb-5">There's No Such Thing as Online Education. How We Will
+              Study Tomorrow</h5>
+            <div class="bloc-business d-flex gap-3 position-absolute bottom-0">
+              <img class="" style="height: 30px;" src="./assets/images/icons/skyeng.png" alt="skyeng">
+              <div class="items-busniss d-flex flex-column second-font-familly" style="font-size: 11px;">
+                <span style="color: #9BC34C;">Skyeng in Skyeng Global</span>
+                <span>Apr 21 • 3 min read</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="card border-0 position-relative rounded-0" style="">
+          <img src="./assets/images/illustration/vue-appartement.png" class="card-img-top" alt="...">
+          <div class="card-body ps-0 pe-0">
+            <h5 class="card-title color-green title-default mb-5">What Does It Mean to Be an Adult and How to Become One
+            </h5>
+            <div class="bloc-business d-flex gap-3 position-absolute bottom-0">
+              <img class="" style="height: 30px;" src="./assets/images/icons/meetUniversity.png" alt="MeetUniversity">
+              <div class="items-busniss d-flex flex-column second-font-familly" style="font-size: 11px;">
+                <span style="color: #9BC34C;">MeetUniversity</span>
+                <span>Mar 18 • 4 min read</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /****** information *************/ -->
+
+    <div class="row mt-5">
+      <div class="col-xl-8">
+        <div class="card mb-3 border-0  w-100 mw-100" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-7 position-relative">
+              <div class="card-body ps-0">
+                <h5 class="card-title title-default color-green">Lessons on Facebook and Chance to Go to London — How
+                  Recruiters Learn English</h5>
+                <p class="card-text second-font-familly m-0" style="font-weight: 400;">A case Study from ANTAL Russia.
+                  British recruitment agency with branches all over the world including Russia</p>
+                <div class="bloc-business d-flex gap-3 position-absolute bottom-0">
+                  <img class="" style="height: 30px;" src="./assets/images/icons/paul-thomas.png" alt="MeetUniversity">
+                  <div class="items-busniss d-flex flex-column second-font-familly" style="font-size: 11px;">
+                    <span style="color: #9BC34C;">Paul Thomas</span>
+                    <span>Mar 17 • 8 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="./assets/images/illustration/veste-montre.png" class="img-fluid rounded-start" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0  w-100 mw-100 mt-5" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-7 position-relative">
+              <div class="card-body ps-0">
+                <h5 class="card-title title-default color-green">How Education Lost to Information Marketing</h5>
+                <p class="card-text second-font-familly m-0" style="font-weight: 400;">Skyeng employs 7,360 teachers. By
+                  the time you read this
+                  post, this number will get bigger</p>
+                <div class="bloc-business d-flex gap-3 position-absolute bottom-0">
+                  <img class="" style="height: 30px;" src="./assets/images/icons/logo.png" alt="MeetUniversity">
+                  <div class="items-busniss d-flex flex-column second-font-familly" style="font-size: 11px;">
+                    <span style="color: #9BC34C;">Business English</span>
+                    <span>Dec 12, 2019 • 4 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="./assets/images/illustration/ordinateur-blocknote.png" class="img-fluid rounded-start"
+                alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0  w-100 mw-100 mt-5" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-7 position-relative">
+              <div class="card-body ps-0">
+                <h5 class="card-title title-default color-green">I Taught My Student Cuss Words —
+                  Now He Studies in Scotland</h5>
+                <p class="card-text second-font-familly m-0" style="font-weight: 400;">6 points you'll need to consider
+                  6 points you'll need to
+                  consider</p>
+                <div class="bloc-business d-flex gap-3 position-absolute bottom-0">
+                  <img class="" style="height: 30px;" src="./assets/images/icons/globibo.png" alt="MeetUniversity">
+                  <div class="items-busniss d-flex flex-column second-font-familly" style="font-size: 11px;">
+                    <span style="color: #9BC34C;">Globibo Language School Follow</span>
+                    <span>Jan 31 • 5 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="./assets/images/illustration/ordinateur-lunette.png" class="img-fluid rounded-start" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0 w-100 mw-100 mt-5" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-7 position-relative">
+              <div class="card-body ps-0">
+                <h5 class="card-title title-default color-green">Business English is not for
+                  everyone, or How to learn English for Business faster</h5>
+                <p class="card-text second-font-familly m-0" style="font-weight: 400;">by Alexander Laryanovskiy,
+                  Managing Partner at Skyeng</p>
+                <div class="bloc-business d-flex gap-3 position-absolute bottom-0">
+                  <img class="" style="height: 30px;" src="./assets/images/icons/meetUniversity.png"
+                    alt="MeetUniversity">
+                  <div class="items-busniss d-flex flex-column second-font-familly" style="font-size: 11px;">
+                    <span style="color: #9BC34C;">MeetUniversity</span>
+                    <span>Nov 7, 2019 • 6 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="./assets/images/illustration/ordinateur-tableaux.png" class="img-fluid rounded-start" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xl-4">
+        <h3 class="title-default border-bottom" style="color: #5D6064;">Popular on Business English</h3>
+        <div class="row">
+          <div class="col-md-3 d-flex justify-content-center display-1">
+            <h1>01</h1>
+          </div>
+          <div class="col-md-9">
+            <p class="m-0 second-font-familly" style="font-weight: bold;">Why is IELTS vocabulary so important?</p>
+            <p class="m-0 second-font-familly">Being a proficiency test, it is the
+              duty of the IELTS examiners to</p>
+            <p class="mt-1 second-font-familly">Aug 17 • 15 min read</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+      </div>
+
+      <div class="row">
+
+      </div>
+
+      <div class="row">
+
+      </div>
+
+    </div>
+  </div>
+  </div>
 
 
 
