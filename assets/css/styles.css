@@ -51,3 +51,9 @@ body{
     height: 80vh;
     background: url("../assets/images/illustration/Rectangle-41.png");
 }
+
+/******* footer *****/
+
+footer{
+    background-color: #666666;
+}
